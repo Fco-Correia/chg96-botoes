@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botoes</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div id="div">
+        <button id="btn-red">Red</button>
+        <button id="btn-blue">Blue</button>
+        <button id="btn-yellow">Yellow</button>
+        <button id="btn-green">Green</button>
+        <button id="btn-orange">Orange</button>
+        <button id="btn-black">Black</button>
+    </div>
+
+    <script>
+      const vermelho = document.querySelector('#btn-red');
+const azul = document.querySelector('#btn-blue');
+const amarelo = document.querySelector('#btn-yellow');
+const verde = document.querySelector('#btn-green');
+const laranja = document.querySelector('#btn-orange');
+const preto = document.querySelector('#btn-black');
+vermelho.addEventListener('click', function(){
+    document.body.style.background = 'red'
+})
+
+azul.addEventListener('click', function(){
+    document.body.style.background = 'blue'
+})
+
+amarelo.addEventListener('click', function(){
+    document.body.style.background = 'yellow'
+})
+
+verde.addEventListener('click', function(){
+    document.body.style.background = 'green'
+})
+
+laranja.addEventListener('click', function(){
+    document.body.style.background = 'orange'
+})
+
+preto.addEventListener('click', function(){
+    document.body.style.background = 'black'
+})
+
+    </script>
+</body>
+</html>
