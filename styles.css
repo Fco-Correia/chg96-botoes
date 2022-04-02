@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    margin-top: 50px;
+    width: 700px;
+    min-height: 100vh;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+button:focus {
+    border: 5px solid darkmagenta;
+}
